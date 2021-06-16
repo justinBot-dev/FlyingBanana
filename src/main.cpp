@@ -125,7 +125,7 @@ MAKE_HOOK_OFFSETLESS(PhotonNetworkController_OnJoinedRoom, void, Il2CppObject* s
     PhotonNetworkController_OnJoinedRoom(self);
 
     Il2CppObject* currentRoom = CRASH_UNLESS(il2cpp_utils::RunMethod("Photon.Pun", "PhotonNetwork", "get_CurrentRoom"));
-
+    // ? makes it so even in public games you can still use flying banana
     allowFlyMode = true
 
     // ? construction to switch what is logged, logs work like printf in C with the % placeholders
